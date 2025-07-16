@@ -41,3 +41,18 @@ button:hover {
 h1 {
     text-align: center;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    padding: 0;
+}
+
+form div {
+    padding: 10px;
+}
+
+form div input{
+    width: 100%;
+}
